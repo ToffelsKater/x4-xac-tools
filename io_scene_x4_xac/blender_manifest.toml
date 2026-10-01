@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+
+id = "x4_xac"
+version = "0.6.2"
+name = "X4 Character Models (.xac)"
+tagline = "Import, edit and swap X4: Foundations NPC characters"
+maintainer = "Damien"
+type = "add-on"
+license = ["SPDX:GPL-2.0-or-later"]
+blender_version_min = "4.2.0"
+
+tags = ["Import-Export"]
+
+[permissions]
+files = "Read game archives, write .xac files and character mods"
