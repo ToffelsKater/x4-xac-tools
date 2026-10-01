@@ -17,6 +17,8 @@ through Steam; set it in the add-on preferences if that fails.
 
 ## Character swapping (sidebar `N > X4`)
 
+<img src="docs/panel.png" align="right" width="250" alt="The X4 sidebar panel">
+
 The X4 tab does the whole trip from the game to Blender and back, without extracting,
 packing or writing XML by hand. **Build Mod** writes the extension straight into
 `X4 Foundations/extensions/<Mod ID>`; enable it in the game's extension list. Delete the
@@ -38,6 +40,8 @@ overwrite each other's extension.
      model files, grouped by race. Files from mods show the mod in brackets.
 
    Models come with their diffuse textures, and the armature remembers the uniform's path.
+
+   ![Import from Game menu](docs/import.png)
 2. Edit the meshes (sculpt, add parts, weight paint). Keep the game materials or assign new
    ones.
 3. **Build Mod** in *Replace Body* mode, with *Body* left empty: the file goes back over
@@ -66,6 +70,8 @@ overwrite each other's extension.
      `c_lina_terran_manager`) and the name with the group appended ("Lina (Terran
      Protectorate Managers)"), so each can be switched on or off in the game. Textures are
      converted once for the whole batch.
+
+     ![Spawn Group dropdown](docs/spawn-group.png)
    - *Replace Body*: your body replaces one game body file everywhere it is used, under the
      game heads. Head meshes are left out. The target must have the skeleton you fitted to;
      a mismatch is refused (female and male crew differ by up to 8 cm).
